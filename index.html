@@ -2618,24 +2618,4 @@
         function handleContato(event) {
             event.preventDefault();
             const btn = event.target.querySelector('button[type="submit"]');
-            btn.innerHTML = '<i class="fas fa-check mr-2"></i>MENSAGEM ENVIADA!';
-            setTimeout(() => {
-                btn.innerHTML = '<i class="fas fa-paper-plane mr-2"></i>ENVIAR MENSAGEM';
-                event.target.reset();
-            }, 3000);
-        }
-
-        // Scroll to section (placeholder)
-        function scrollToSection(id) {
-            // Em SPA simples, apenas um alerta ou smooth scroll interno
-            // Como as seções estão na mesma página, podemos usar scrollIntoView
-        }
-
-        // Inicialização
-        document.addEventListener('DOMContentLoaded', () => {
-            updateHeader();
-            updateDistancias();
-        });
-    </script>
-</body>
-</html>
+            btn.innerHTML
